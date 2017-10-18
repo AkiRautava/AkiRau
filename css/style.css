@@ -1,8 +1,24 @@
-﻿/* Header */
+﻿#body
+{
+	background:grey url(images/bg.jpg) repeat-x;
+}
+
+#wrap 
+{
+	width:700px;
+	 margin:0px auto 15px auto;
+	 font-family:Helvetica;
+	 font-size:16px;
+	 color:#AAAAAA;
+}
+}
+
+/* Header */
 #header 
 {
  height:242px;
  margin:0px auto 15px auto;
  font-family:Helvetica;
-
+ font-size:16px;
+ color:#AAAAAA;
 }
