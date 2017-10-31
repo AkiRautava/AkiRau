@@ -3,13 +3,12 @@
 	background:grey url(images/bg.jpg) repeat-x;
 }
 
-#wrap 
+#content
 {
-	width:700px;
-	 margin:0px auto 15px auto;
-	 font-family:Helvetica;
-	 font-size:16px;
-	 color:#AAAAAA;
+	padding: 30px;
+	text-family: Helvetica;
+	background-color: #FFFFFF;
+	
 }
 
 #div.container {
@@ -18,14 +17,12 @@
 }
 
 #header {
-    	padding-top: 30px;
-	padding-bottom: 10px;
-   	text-color: white;
+	
     	background-color: black;
     	clear: left;
    	text-align: center;
+	text-color: #FFFFF;
 	border-bottom-style: outset;
-	border: 3px;
 }
 
 #nav {
