@@ -13,7 +13,8 @@
 
 #header {
 	text-color: #FFFFFF;
-	
+	padding-top: 30px;
+	padding-bottom: 10px;
     	background-color: black;
 	border-bottom: 10px;
 	border-bottom-style: outset;
