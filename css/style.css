@@ -23,6 +23,8 @@
     background-color: black;
     clear: left;
     text-align: center;
+	border-bottom-style: outset;
+	border: 3px;
 }
 
 #nav {
