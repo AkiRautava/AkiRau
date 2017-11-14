@@ -23,11 +23,10 @@
 #nav {
 	font: 15px Helvetica;
     float: left;
-    max-width: 160px;
-	height: 100%;
+    width: 15%;
     margin: 0;
     padding: 1em;
-	background-color: grey;
+	background-color: #d1d1d1;
 }
 
 #nav ul {
@@ -36,11 +35,14 @@
 }
 
 #nav li {
-	background-color: white;
 	width: 100%;
 	padding: 5px 0px 5px 0px;
 	text-align: center;
 	
+}
+
+#nav li:hover {
+	background-color: #efefef;
 }
    
 #nav ul a {
