@@ -16,6 +16,22 @@ a {
 	background-color: #141a1f;
 	
 }
+#gallery
+{
+	padding: 30px 5px 30px 25%;
+	font-family: Helvetica;
+	color: #dddddd;
+	background-color: #141a1f;
+	
+}
+#contact
+{
+	padding: 30px 5px 30px 25%;
+	font-family: Helvetica;
+	color: #dddddd;
+	background-color: #141a1f;
+	
+}
 
 ul {
 	list-style-type:none;
