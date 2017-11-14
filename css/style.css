@@ -7,7 +7,7 @@ body {
 {
 	padding: 30px 5px 30px 25%;
 	text-family: Helvetica;
-	background-color: #FFFFFF;
+	background-color: #0f260d;
 	
 }
 
@@ -18,7 +18,9 @@ body {
     	width: 20%;
     	height:100vh;
    	margin: 0px;
-	background-color: #d1d1d1;
+	background-color: #0f260d;
+	border: 1px 1px 1px 0px;
+	border-color: #7ac174;
 }
 
 #nav ul {
