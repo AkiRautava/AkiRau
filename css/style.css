@@ -17,6 +17,14 @@ a {
 	
 }
 
+ul {
+	list-style-type:none;
+}
+
+ol {
+	list-style-type:none;
+}
+
 #nav {
 	position: fixed;
 	font: 30px Helvetica;
