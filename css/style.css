@@ -11,15 +11,6 @@ body {
 	
 }
 
-#header {
-	text-color: #FFFFFF;
-	text-align: center;
-	padding: 30px;
-    	background-color: black;
-	border-bottom: 10px;
-	border-bottom-style: outset;
-}
-
 #nav {
 	position: fixed;
 	font: 30px Helvetica;
@@ -39,7 +30,7 @@ body {
 	max-width: 100%;
 	padding: 5px 0px 5px 0px;
 	text-align: center;
-	
+	transition: background-color 0.1s;
 }
 
 #nav li:hover {
