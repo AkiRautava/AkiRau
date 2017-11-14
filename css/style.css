@@ -3,6 +3,10 @@ body {
 	margin:0px;
 }
 
+#a {
+	text-decoration: none;	
+}
+
 #content
 {
 	padding: 30px 5px 30px 25%;
