@@ -20,6 +20,7 @@
 }
 
 #nav {
+	font: 15px Helvetica;
     float: left;
     max-width: 160px;
 	height: 100%;
