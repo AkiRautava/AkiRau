@@ -7,7 +7,7 @@ body {
 {
 	padding: 30px 5px 30px 25%;
 	font-family: Helvetica;
-	font-color: #dddddd;
+	color: #dddddd;
 	background-color: #12232d;
 	
 }
@@ -15,7 +15,7 @@ body {
 #nav {
 	position: fixed;
 	font: 30px Helvetica;
-	font-color: #dddddd;
+	color: #dddddd;
     	float: left;
     	width: 20%;
     	height:100vh;
