@@ -29,13 +29,12 @@ a {
 {
 	width: 100px;
 	height: 100px;
-	transition: height 0,3s ease;
+	transition: all 0,3s ease;
 }
 
 #image:hover
 {
-	width: initial;
-	height: initial;
+	transform: scale(3,3);
 }
 
 #contact
