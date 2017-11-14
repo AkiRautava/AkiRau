@@ -8,39 +8,56 @@
 	<body>
 		<div id="nav">
 			<ul>
-				<li>Home</li>
-				<li> <a href="#content">Gallery</a></li>
-				<li>Contact</li>
+				<li><a href="#content">Home</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
 
 		</div>
 		<div id="body">
 			<div id="content">
-			<img src="http://opinto-opas.kamk.fi/images/kamk_logo.png" alt="kamk logo">
-			<h1>Hello!</h1>
-			<p> This is a paragraph </p>
+				<h1>Portfolio</h1>
+				<p> Hello and welcome to my portfolio. My name is Aki Rautava, I am a second year game graphics student at Kajaani Univeristy of Applied Sciences. </p>
+				<p> Here you will find some of my work and a bit of information about me as an artist </p>
+			</div>
+			
+			<div id="gallery">
+				<img src="images/bartendersculpt.png" alt="character sculpt">
 
-			<a href="http://kamk.fi/fi"> Link to KAMK </a>
+				<h2> List of programs I use in order of proficiency </h2>
+				<ul>
+					<li> 
+						<h3> 2D </h3>
+						<ol>
+							<li> Photoshop </li>
+							<li> Krita </li>
+						</ol>
+					</li>
+					<li>
+						<h3> 3D </h3>
+						<ol>
+							<li> Blender </li>
+							<li> 3DS Max </li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+			<div id="contact">
+				<h1>Contact me!</h1>
+				
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-			<img src="images/bartendersculpt.png" alt="character sculpt">
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-			<h2> List of programs I use in order of proficiency </h2>
-			<ul>
-				<li> 
-					<h3> 2D </h3>
-					<ol>
-						<li> Photoshop </li>
-						<li> Krita </li>
-					</ol>
-				</li>
-				<li>
-					<h3> 3D </h3>
-					<ol>
-						<li> Blender </li>
-						<li> 3DS Max </li>
-					</ol>
-				</li>
-			</ul>
+				<label for="country">Country</label>
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+
 			</div>
 		</div>
 	</body>
