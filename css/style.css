@@ -27,14 +27,15 @@ a {
 
 #image
 {
-	width: 100px;
-	height: 100px;
-	transition: all 0,3s ease;
+	height: 200px;
+	transition: all 0.3s ease;
 }
 
 #image:hover
 {
-	transform: scale(3,3);
+	width:initial;
+	transform: scale(3);
+	transform-origin:top left;
 }
 
 #contact
