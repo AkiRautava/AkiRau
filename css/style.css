@@ -18,6 +18,21 @@ td {
 	padding: 5px;
 }
 
+#mapcontainer
+{
+	padding: 30px 5px 30px 25%;
+	font-family: Helvetica;
+	color: #dddddd;
+	background-color: #141a1f;
+	
+}
+
+#map
+{
+	width: 200px;
+	height: 200px;
+}
+
 #video
 {
 	padding: 30px 5px 30px 25%;
