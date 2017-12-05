@@ -27,6 +27,15 @@ td {
 	
 }
 
+#dnd
+{
+	padding: 30px 5px 30px 25%;
+	font-family: Helvetica;
+	color: #dddddd;
+	background-color: #141a1f;
+	
+}
+
 #map
 {
 	width: 400px;
