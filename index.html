@@ -24,8 +24,23 @@
 			}
 			return true;	
 			}
-			
 		</script>
+		<script>	
+			function InitMap()
+			{
+				var location = {lat: 64.222178 , lng: 27.727850};
+				var map = new google.maps.Map(document.getElementById("map"), {
+					zoom:4,
+					center:location
+				});
+				var marker = new google.maps.Marker({
+					position: location,
+					map: map
+				})
+			}
+			}
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfQdzNH9SCe1N019qdrQqtm4c6q2wXeM&callback=initMap"></script>
 	</head>
 	<body>
 		<div id="nav">
@@ -37,6 +52,7 @@
 				<li><a href="#content">Home</a></li>
 				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#video">Video</li>
+				<li><a href="map">Map</li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 
@@ -87,6 +103,8 @@
 			<div id ="video">
 				<h1>Here's a video</h1>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/Fw3RB7xnb80?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+			</div>
+			<div id ="map">
 			</div>
 			<div id="contact">
 			
