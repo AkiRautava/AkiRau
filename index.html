@@ -26,18 +26,17 @@
 			}
 		</script>
 		<script>	
-			function InitMap()
+			function initMap()
 			{
 				var location = {lat: 64.222178 , lng: 27.727850};
 				var map = new google.maps.Map(document.getElementById("map"), {
-					zoom:4,
+					zoom: 4,
 					center:location
 				});
 				var marker = new google.maps.Marker({
 					position: location,
 					map: map
-				})
-			}
+				});
 			}
 		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfQdzNH9SCe1N019qdrQqtm4c6q2wXeM&callback=initMap"></script>
