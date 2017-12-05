@@ -4,6 +4,14 @@
 	<head>
 		<title>WWW ja Internet -Kurssi</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script>
+			function validateForm()
+			{
+				if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
+			}
+			alert("Name must be filled out");
+			return false;
+		</script>
 	</head>
 	<body>
 		<div id="nav">
@@ -56,13 +64,15 @@
 						<ol>
 							<li> Blender </li>
 							<li> 3DS Max </li>
+							<li> Sculptris </li>
 						</ol>
 					</li>
 				</ul>
 			</div>
 			<div id="contact">
 				<h1>Contact me!</h1>
-				<form>
+				<form name="myForm" action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post" 
+				      onsubmit="return validateForm()" >
 					<p>
 						<label for="fname">First Name</label>
 						<p>
