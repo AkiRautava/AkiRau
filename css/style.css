@@ -8,6 +8,10 @@ a {
 	color: inherit;
 }
 
+td {
+	padding: 10px;
+}
+
 #name {
 	font: 20px Helvetica;
 	text-align: center;
