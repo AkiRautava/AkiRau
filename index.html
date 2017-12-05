@@ -27,7 +27,20 @@
 			
 			<div id="gallery">
 				<h1> Gallery </h1>
-				<img id="image" src="images/bartendersculpt.png" alt="character sculpt">
+				<table style="width:100%">
+					  <tr>
+						    <th>3D</th>
+						    <th>2D</th> 
+					  </tr>
+					  <tr>
+						    <td><img id="image" src="images/bartendersculpt.png" alt="character sculpt"></td>
+						    <td>2D Image</td>
+					  </tr>
+					  <tr>
+						    <td><img id="image" src="images/Colt_Peacemaker.PNG" alt="Colt Peacemaker"></td>
+						    <td>2D Image</td>
+					  </tr>
+				</table>
 
 				<h3> List of programs I use in order of proficiency </h3>
 				<ul>
@@ -49,27 +62,29 @@
 			</div>
 			<div id="contact">
 				<h1>Contact me!</h1>
-				<p>
-					<label for="fname">First Name</label>
+				<form>
 					<p>
-					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+						<label for="fname">First Name</label>
+						<p>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+						</p>
 					</p>
-				</p>
-				<p>
-					<label for="lname">Last Name</label>
 					<p>
-					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						<label for="lname">Last Name</label>
+						<p>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+						</p>
 					</p>
-				</p>
-				<p>
-					<label for="message">Message</label>
 					<p>
-					<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+						<label for="message">Message</label>
+						<p>
+						<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+						</p>
 					</p>
-				</p>
-				<p>
-					<input type="submit" value="Submit">
-				</p>
+					<p>
+						<input type="submit" value="Submit">
+					</p>
+				</form>
 
 			</div>
 		</div>
