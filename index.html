@@ -7,10 +7,24 @@
 		<script>
 			function validateForm()
 			{
-				if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
-			}
-			alert("Name must be filled out");
+			if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
+			{
+			alert("First Name must be filled out");
 			return false;
+			}
+			if (document.forms["myForm"]["lname"].value==null || document.forms["myForm"]["lname"].value=="")
+			{
+			alert("Last Name must be filled out");
+			return false;
+			}	
+			if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
+			{
+			alert("Please write a message");
+			return false;
+			}
+			return true;	
+			}
+			
 		</script>
 	</head>
 	<body>
