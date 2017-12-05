@@ -25,7 +25,7 @@ td {
 	padding: 5px;
 }
 
-#mapcontainer
+#mapcontainer, #dnd, #video, #gallery, #content, #contact
 {
 	padding: 30px 5px 30px 25%;
 	font-family: Helvetica;
@@ -34,14 +34,6 @@ td {
 	
 }
 
-#dnd
-{
-	padding: 30px 5px 30px 25%;
-	font-family: Helvetica;
-	color: #dddddd;
-	background-color: #141a1f;
-	
-}
 
 #dnd1, #dnd2
 {
@@ -57,31 +49,6 @@ td {
 	height: 400px;
 }
 
-#video
-{
-	padding: 30px 5px 30px 25%;
-	font-family: Helvetica;
-	color: #dddddd;
-	background-color: #141a1f;
-	
-}
-
-#content
-{
-	padding: 30px 5px 30px 25%;
-	font-family: Helvetica;
-	color: #dddddd;
-	background-color: #141a1f;
-	
-}
-#gallery
-{
-	padding: 30px 5px 30px 25%;
-	font-family: Helvetica;
-	color: #dddddd;
-	background-color: #141a1f;
-	
-}
 
 #image
 {
@@ -95,15 +62,6 @@ td {
 	width:initial;
 	transform: scale(3);
 	transform-origin:top left;
-}
-
-#contact
-{
-	padding: 30px 5px 30px 25%;
-	font-family: Helvetica;
-	color: #dddddd;
-	background-color: #141a1f;
-	
 }
 
 ul {
